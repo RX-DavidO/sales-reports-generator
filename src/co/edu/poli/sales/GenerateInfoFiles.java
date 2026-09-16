@@ -14,7 +14,7 @@ import java.util.Random;
  * @author David Felipe Olarte Carmona
  * @author Maria Alejandra Cardenas Guzman
  * @author Laura Vanessa Romero Jimenez
- * @author Mami Noe
+ * @author Martha Liliana Salazar Betancur
  * 
  * @version 1.0
  */
