@@ -1,0 +1,10 @@
+P001;Carpeta;85000
+P002;Mochila;23000
+P003;Mochila;29000
+P004;Marcador;81000
+P005;Marcador;62000
+P006;Lapiz;8000
+P007;Pegante;54000
+P008;Borrador;64000
+P009;Borrador;89000
+P010;Lapiz;16000

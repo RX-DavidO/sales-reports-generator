@@ -1,0 +1,5 @@
+CC;1000000001;Andres;Hernandez
+CC;1000000002;Jorge;Ramirez
+CC;1000000003;Laura;Hernandez
+CC;1000000004;Laura;Perez
+CC;1000000005;Valentina;Diaz
