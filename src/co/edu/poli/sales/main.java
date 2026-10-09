@@ -51,9 +51,9 @@ public class main {
             System.out.println("Vendedores leídos correctamente: "+ salesmen.size());
             System.out.println("Ventas procesadas correctamente.");
             System.out.println("Reporte de vendedores creado correctamente.");
-        } catch (IOException e) {
-        	System.out.println("Ocurrió un error al procesar los archivos.");
-            e.printStackTrace();
+        } catch (IOException | IllegalArgumentException e) {
+    System.out.println("Ocurrió un error al procesar los archivos: "
+            + e.getMessage());
         }
     }
     
