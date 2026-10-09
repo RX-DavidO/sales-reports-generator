@@ -1,17 +1,27 @@
-# Elementos pendientes para la versión final
+# Seguimiento de pendientes del proyecto
 
-## Estado actual
+## Estado final
 
-El proyecto genera archivos de prueba, lee productos, vendedores y ventas, y crea los reportes `salesmen_report.csv` y `products_report.csv`.
+Este documento fue creado durante la segunda entrega para registrar los elementos pendientes de la versión preliminar.
 
-## Pendientes
+Para la entrega final se verificó que el proyecto cumple los requisitos obligatorios:
 
-- Completar las validaciones de datos negativos, como precios o cantidades de venta menores que cero.
-- Mejorar los mensajes de error para identificar el archivo y la línea exacta que presentan un formato inválido.
-- Realizar más pruebas con diferentes cantidades de productos, vendedores y ventas.
-- Probar el procesamiento de varios archivos de ventas correspondientes a un mismo vendedor.
-- Revisar nuevamente la documentación JavaDoc y el formato del código antes de la entrega final.
+- Existen exactamente dos clases con método `main`: `GenerateInfoFiles` y `main`.
+- `GenerateInfoFiles` genera archivos de productos, vendedores y ventas.
+- `main` procesa los archivos de entrada y crea los reportes solicitados.
+- Los programas no solicitan información al usuario.
+- Se generaron correctamente `salesmen_report.csv` y `products_report.csv`.
+- El código incluye documentación JavaDoc.
+- Se agregó el archivo `conslusion.txt`.
 
-## Elementos opcionales no implementados
+## Pendientes cerrados
 
-- Manejo de archivos serializados.
+Los elementos indispensables para la entrega final fueron implementados y probados correctamente.
+
+## Mejoras futuras opcionales
+
+Las siguientes mejoras no son requisitos obligatorios de la entrega final:
+
+- Agregar validaciones adicionales para precios o cantidades negativas.
+- Indicar el archivo y la línea exacta cuando se detecte un formato inválido.
+- Implementar el manejo de archivos serializados.
