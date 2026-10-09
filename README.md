@@ -1,28 +1,43 @@
-# Generador de archivos de prueba
+# Sistema de reportes de ventas
 
-Proyecto correspondiente a la primera entrega del módulo de reportes de ventas.
+Proyecto final del módulo de reportes de ventas. El programa genera archivos de prueba, procesa la información de productos, vendedores y ventas, y crea reportes ordenados.
 
-## Descripción
+## Clases ejecutables
 
-La clase `GenerateInfoFiles` genera archivos planos de prueba para el programa principal de reportes de ventas.
+El proyecto tiene exactamente dos clases con método `main`:
 
-Al ejecutarla, se crean los siguientes archivos dentro de la carpeta `data`:
+- `GenerateInfoFiles`: genera archivos planos pseudoaleatorios de productos, vendedores y ventas.
+- `main`: lee los archivos generados y crea los reportes de ventas.
 
-- `products.txt`: información de productos.
-- `salesmen.txt`: información de vendedores.
-- `sales_Vendedor_...txt`: archivos de ventas, uno por cada vendedor.
+Las demás clases, como `Product` y `Salesman`, son clases auxiliares y no tienen método `main`.
 
 ## Ejecución
 
-1. Abrir el proyecto con Eclipse.
-2. Ubicar la clase `GenerateInfoFiles`.
-3. Hacer clic derecho sobre la clase.
-4. Seleccionar `Run As` → `Java Application`.
+Los programas deben ejecutarse en este orden:
 
-El programa mostrará un mensaje de éxito y generará los archivos de prueba en la carpeta `data`.
+1. Abrir el proyecto en Eclipse.
+2. Ejecutar `GenerateInfoFiles` con `Run As` → `Java Application`.
+3. El programa generará los archivos de entrada dentro de la carpeta `data`.
+4. Ejecutar `main` con `Run As` → `Java Application`.
+5. El programa creará los reportes solicitados.
 
-## Métodos principales
+Ninguno de los programas solicita información al usuario.
 
-- `createProductsFile(int productsCount)`
-- `createSalesManInfoFile(int salesmanCount)`
-- `createSalesMenFile(int randomSalesCount, String name, long id)`
+## Archivos generados
+
+Al ejecutar `GenerateInfoFiles` se crean:
+
+- `products.txt`: información de productos.
+- `salesmen.txt`: información de vendedores.
+- `sales_Vendedor_...txt`: archivos de ventas, uno por vendedor.
+
+Al ejecutar `main` se crean:
+
+- `salesmen_report.csv`: vendedores ordenados de mayor a menor según el dinero recaudado.
+- `products_report.csv`: productos ordenados de mayor a menor según la cantidad vendida.
+
+## Documentación
+
+El código incluye documentación JavaDoc en sus clases y métodos principales.
+
+El archivo `conslusion.txt` contiene un resumen de los aprendizajes, aplicaciones profesionales y dificultades presentadas durante el desarrollo del proyecto.
