@@ -1,0 +1,13 @@
+CONCLUSIÓN DEL PROYECTO
+
+1. Aprendizajes durante el desarrollo
+
+Durante el desarrollo del proyecto aprendimos a crear programas en Java organizados en varias clases, usar métodos, leer y escribir archivos de texto, y procesar información almacenada en ellos. También practicamos el uso de listas y mapas para relacionar productos, vendedores y ventas. Comprendimos la importancia de documentar el código con JavaDoc, usar nombres claros y mantener una estructura ordenada en el proyecto.
+
+2. Aplicaciones profesionales
+
+Los conocimientos adquiridos pueden aplicarse en sistemas de inventario, facturación, reportes de ventas y análisis de datos de una empresa. La lectura y generación de archivos permite intercambiar información entre programas y automatizar tareas que normalmente se harían de forma manual. Además, la organización del código, el manejo de errores y la documentación son habilidades útiles en cualquier trabajo relacionado con desarrollo de software.
+
+3. Dificultades presentadas
+
+Una de las principales dificultades fue comprender cómo relacionar la información de los diferentes archivos y asegurar que los identificadores de productos y vendedores coincidieran. También fue necesario aprender a recorrer los archivos de ventas, sumar las cantidades y los valores recaudados, y ordenar los resultados para generar los reportes solicitados. Finalmente, la organización del repositorio y la documentación del proyecto requirieron atención para cumplir con todos los requisitos de entrega.
