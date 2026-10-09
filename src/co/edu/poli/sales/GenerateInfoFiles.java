@@ -65,9 +65,9 @@ public class GenerateInfoFiles {
 			}
 			
 			System.out.println("Archivos de productos, vendedores y ventas generados correctamente.");
-	    } catch (IOException e) {
-	        System.out.println("Ocurrió un error al generar los archivos.");
-	        e.printStackTrace();
+	    } catch (IOException | IllegalArgumentException e) {
+    System.out.println("Ocurrió un error al generar los archivos: "
+            + e.getMessage());
 	    }
 	}
 	
